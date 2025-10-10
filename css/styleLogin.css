@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif
+}
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(../img/pngtree-hd-photography-corner-of-cafeteria-image_1013538.jpg);
+    background-size:cover;
+    background-position:center;
+
+}
+.container{
+    width: 260px;
+    background-color: #fff;
+    border: 2px solid rgba(255, 255, 255, .9999);
+    border-radius: 20px;
+    color:black;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.container h1 {
+    font-size: 45px;
+    text-align: center;
+    
+}
+
+
+.input-box{
+    position:relative;
+    width:100%;
+    height: 36px;
+    margin: 30px 0;
+    color: black;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent ;
+    border: 2px solid  rgb(0, 0, 0);
+    border-radius:90px ;
+    outline: none;
+    font-size: 16px;
+    color:rgb(0, 0, 0);
+    padding:20px 45px 20px 20px
+}
+.input-box input::placeholder{
+    color: rgb(0, 0, 0);
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: 25%;
+    
+}
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin:-15px 0 15px ;
+
+}
+.remember-forgot label input{
+    accent-color: rgb(0, 0, 0);
+    margin-right: 5px;
+
+}
+.remember-forgot a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    margin-left: 8px;
+   
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+    text-decoration: none;
+    color: blue;
+}
+.login {
+    width: 60%;
+    height: 35px;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 28px;
+}
+.entrar{
+    width: 100%;
+    height: 50px;
+    display: grid; 
+    align-items: center; 
+    text-decoration: none;
+    color: black;
+    
+}
+.entrar a:hover {
+    width: 100%;
+    height: 50px;
+    display: grid; 
+    align-items: center; 
+    text-decoration: none;
+    color: blue;
+    
+
+}
+.register-link{
+    font-size: 14px;
+    align-items: center;
+    margin:10px;
+}
+.register-link a {
+    text-decoration: none;
+    color:black;
+    margin: 25px;
+}
+.register-link a:hover{
+    font-size: 14px;
+    align-items: center;
+    margin:25px;
+    color: blue;
+}
+
+
+
+
+     
